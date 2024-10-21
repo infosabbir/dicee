@@ -16,8 +16,9 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.red,
           foregroundColor: Colors.white,
-          title: Text('Dicee'),
+          title: const Text('Dicee'),
         ),
+        body: DiceePage(),
       ),
     );
   }
@@ -28,6 +29,15 @@ class DiceePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Row(
+      children: [
+        Expanded(
+          child: Image.asset('images/dice1.png'),
+        ),
+        Expanded(
+          child: Image.asset('images/dice2.png'),
+        ),
+      ],
+    );
   }
 }
