@@ -1,13 +1,13 @@
 # flutter pub run flutter_launcher_icons
 flutter_launcher_icons:
-  image_path: "images/dice6.png"
+  image_path: "images/dice.png"
 
   android: "launcher_icon"
-  image_path_android: "images/dice6.png"
+  image_path_android: "images/dice.png"
   min_sdk_android: 21 # android min sdk min:16, default 21
   adaptive_icon_background: "#ffffff"
-  adaptive_icon_foreground: "images/dice6.png"
-  adaptive_icon_monochrome: "images/dice6.png"
+  adaptive_icon_foreground: "images/dice.png"
+  adaptive_icon_monochrome: "images/dice.png"
 
 #  ios: true
 #  # image_path_ios: "assets/icon/icon.png"
