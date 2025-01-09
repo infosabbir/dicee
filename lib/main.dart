@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
           foregroundColor: Colors.white,
           title: const Text('Dicee'),
         ),
-        body: DiceePage(),
+        body: const DiceePage(),
       ),
     );
   }
